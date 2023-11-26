@@ -12,7 +12,7 @@ public class UcVeDordeTamBolunenOrtalama {
 
         for (int i = 1; i <= number; i++) {
             if (i % 3 == 0 && i % 4 == 0) {
-                sum = sum + i;
+                sum += i;
                 count++;
             }
         }
