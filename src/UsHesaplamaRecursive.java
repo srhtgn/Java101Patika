@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class UsHesaplamaRecursive {
 
-    static int calculatePower(int base, int exponent) {
+    static int calculateExponent(int base, int exponent) {
         if (exponent == 0) {
             return 1;
         } else {
-            return base * calculatePower(base, exponent - 1);
+            return base * calculateExponent(base, exponent - 1);
         }
     }
 
@@ -20,7 +20,7 @@ public class UsHesaplamaRecursive {
             System.out.print("Üs değerini giriniz: ");
             int exponent = scanner.nextInt();
 
-            int result = calculatePower(base, exponent);
+            int result = calculateExponent(base, exponent);
 
             System.out.println("Sonuç: " + result);
 
