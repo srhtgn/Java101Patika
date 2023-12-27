@@ -71,7 +71,7 @@ class Employee {
     }
 
     public static void main(String[] args) {
-        Employee employee = new Employee("kemal", 1500.0, 45, 1985);
+        Employee employee = new Employee("kemal", 2000.0, 45, 1985);
 
         double tax = employee.tax();
         double bonus = employee.bonus();
