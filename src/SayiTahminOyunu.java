@@ -18,7 +18,7 @@ public class SayiTahminOyunu {
             System.out.print("Lütfen tahmininizi giriniz : ");
             selected = input.nextInt();
 
-            if (selected < 0 || selected > 99) {
+            if (selected < 0 || selected > 100) {
                 System.out.println("Lütfen 0-100 arasında bir değer giriniz.");
                 if (isWrong) {
                     right++;
